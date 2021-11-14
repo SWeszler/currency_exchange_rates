@@ -15,6 +15,7 @@ class RateViewSet(ReadOnlyModelViewSet):
     def retrieve(self, request, *args, **kwargs):
         """
         Return the latest rate for a given currency.
+        TODO - change it to list all rates for a given currency.
         """
         queryset = self.get_queryset()
         currency = kwargs['currency']
