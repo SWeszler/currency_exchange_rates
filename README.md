@@ -53,3 +53,8 @@ This method will require you to install Python and Redis on your machine.
 ```
 
 
+## Testing
+
+```
+python manage.py test
+```
