@@ -8,12 +8,50 @@ Fetching the RSS feed is done by the scheduled task. It is scheduled to run ever
 For scheduling tasks we can use Cron job or Google Cloud Scheduler. Once the webhook is triggered the asynchronous task is being added to the queue built with Celery and Redis.  
 
 	Webhook (Needs Basic Authentication):  
-	GET /scraper/run/
+	curl -u user:password -X GET http://localhost:8000/scraper/run/ 
+	Response:
+
+```
+	200 OK
+	Content-Type: application/json
+
+	{
+	  "task_id": "<celery_task_id>"
+	}
+```
 
 2. REST API returns the current exchange rate as well as historical data saved in the database.  
 It provides the following endpoints:  
-  
+   
+        GET /api/v1/rates/ - Returns all currency rates paginated.  
+        Response  
+	```
+	{  
+	    "count": 1,  
+	    "next": http://localhost:8000/api/v1/rates/?page=2,  
+	    "previous": null,  
+	    "results": [  
+		{  
+		    "id": 1,  
+		    "currency": "EUR",  
+		    "rate": 1.0,  
+		    "date": "2020-01-01",  
+		    "base_currency": "EUR"
+		}  
+	    ]  
+	}
+	```
 	GET /api/v1/rates/{currency}/ - returns the latest exchange rate for the given currency  
+	Response  
+	```
+	{  
+	    "id": 1,  
+	    "currency": "EUR",  
+	    "rate": 1.0,  
+	    "date": "2020-01-01",  
+	    "base_currency": "EUR"
+	}
+	```
 	GET /api/v1/rates/{currency}/{date} - returns the exchange rate for the given currency and date.  
 
 

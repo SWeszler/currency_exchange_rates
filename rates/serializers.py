@@ -10,3 +10,4 @@ class RateSerializer(serializers.Serializer):
     rate = serializers.FloatField()
     date = serializers.DateTimeField()
     currency = serializers.CharField()
+    base_currency = serializers.CharField()
