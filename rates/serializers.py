@@ -7,6 +7,6 @@ class RateSerializer(serializers.Serializer):
     Serializer for the Rate model
     """
     id = serializers.IntegerField(read_only=True)
-    rate = serializers.IntegerField()
+    rate = serializers.FloatField()
     date = serializers.DateTimeField()
     currency = serializers.CharField()

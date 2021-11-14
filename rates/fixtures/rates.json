@@ -1,0 +1,1442 @@
+[
+	{
+		"model": "rates.rate",
+		"pk": 211,
+		"fields": {
+			"currency": "USD",
+			"rate": "1.1448",
+			"date": "2021-11-12T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 212,
+		"fields": {
+			"currency": "USD",
+			"rate": "1.1460",
+			"date": "2021-11-11T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 213,
+		"fields": {
+			"currency": "USD",
+			"rate": "1.1558",
+			"date": "2021-11-10T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 214,
+		"fields": {
+			"currency": "USD",
+			"rate": "1.1577",
+			"date": "2021-11-09T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 215,
+		"fields": {
+			"currency": "USD",
+			"rate": "1.1579",
+			"date": "2021-11-08T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 216,
+		"fields": {
+			"currency": "JPY",
+			"rate": "130.5000",
+			"date": "2021-11-12T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 217,
+		"fields": {
+			"currency": "JPY",
+			"rate": "130.5900",
+			"date": "2021-11-11T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 218,
+		"fields": {
+			"currency": "JPY",
+			"rate": "130.9000",
+			"date": "2021-11-10T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 219,
+		"fields": {
+			"currency": "JPY",
+			"rate": "130.9000",
+			"date": "2021-11-09T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 220,
+		"fields": {
+			"currency": "JPY",
+			"rate": "131.2900",
+			"date": "2021-11-08T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 221,
+		"fields": {
+			"currency": "BGN",
+			"rate": "1.9558",
+			"date": "2021-11-12T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 222,
+		"fields": {
+			"currency": "BGN",
+			"rate": "1.9558",
+			"date": "2021-11-11T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 223,
+		"fields": {
+			"currency": "BGN",
+			"rate": "1.9558",
+			"date": "2021-11-10T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 224,
+		"fields": {
+			"currency": "BGN",
+			"rate": "1.9558",
+			"date": "2021-11-09T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 225,
+		"fields": {
+			"currency": "BGN",
+			"rate": "1.9558",
+			"date": "2021-11-08T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 226,
+		"fields": {
+			"currency": "CZK",
+			"rate": "25.2380",
+			"date": "2021-11-12T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 227,
+		"fields": {
+			"currency": "CZK",
+			"rate": "25.2540",
+			"date": "2021-11-11T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 228,
+		"fields": {
+			"currency": "CZK",
+			"rate": "25.2090",
+			"date": "2021-11-10T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 229,
+		"fields": {
+			"currency": "CZK",
+			"rate": "25.1970",
+			"date": "2021-11-09T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 230,
+		"fields": {
+			"currency": "CZK",
+			"rate": "25.2520",
+			"date": "2021-11-08T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 231,
+		"fields": {
+			"currency": "DKK",
+			"rate": "7.4370",
+			"date": "2021-11-12T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 232,
+		"fields": {
+			"currency": "DKK",
+			"rate": "7.4372",
+			"date": "2021-11-11T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 233,
+		"fields": {
+			"currency": "DKK",
+			"rate": "7.4376",
+			"date": "2021-11-10T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 234,
+		"fields": {
+			"currency": "DKK",
+			"rate": "7.4377",
+			"date": "2021-11-09T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 235,
+		"fields": {
+			"currency": "DKK",
+			"rate": "7.4383",
+			"date": "2021-11-08T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 236,
+		"fields": {
+			"currency": "EEK",
+			"rate": "15.6466",
+			"date": "2010-12-31T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 237,
+		"fields": {
+			"currency": "EEK",
+			"rate": "15.6466",
+			"date": "2010-12-30T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 238,
+		"fields": {
+			"currency": "EEK",
+			"rate": "15.6466",
+			"date": "2010-12-29T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 239,
+		"fields": {
+			"currency": "EEK",
+			"rate": "15.6466",
+			"date": "2010-12-28T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 240,
+		"fields": {
+			"currency": "EEK",
+			"rate": "15.6466",
+			"date": "2010-12-27T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 241,
+		"fields": {
+			"currency": "GBP",
+			"rate": "0.8550",
+			"date": "2021-11-12T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 242,
+		"fields": {
+			"currency": "GBP",
+			"rate": "0.8554",
+			"date": "2021-11-11T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 243,
+		"fields": {
+			"currency": "GBP",
+			"rate": "0.8555",
+			"date": "2021-11-10T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 244,
+		"fields": {
+			"currency": "GBP",
+			"rate": "0.8538",
+			"date": "2021-11-09T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 245,
+		"fields": {
+			"currency": "GBP",
+			"rate": "0.8548",
+			"date": "2021-11-08T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 246,
+		"fields": {
+			"currency": "HUF",
+			"rate": "366.1500",
+			"date": "2021-11-12T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 247,
+		"fields": {
+			"currency": "HUF",
+			"rate": "364.8000",
+			"date": "2021-11-11T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 248,
+		"fields": {
+			"currency": "HUF",
+			"rate": "362.1500",
+			"date": "2021-11-10T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 249,
+		"fields": {
+			"currency": "HUF",
+			"rate": "360.9900",
+			"date": "2021-11-09T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 250,
+		"fields": {
+			"currency": "HUF",
+			"rate": "359.7600",
+			"date": "2021-11-08T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 251,
+		"fields": {
+			"currency": "PLN",
+			"rate": "4.6428",
+			"date": "2021-11-12T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 252,
+		"fields": {
+			"currency": "PLN",
+			"rate": "4.6296",
+			"date": "2021-11-11T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 253,
+		"fields": {
+			"currency": "PLN",
+			"rate": "4.6121",
+			"date": "2021-11-10T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 254,
+		"fields": {
+			"currency": "PLN",
+			"rate": "4.5926",
+			"date": "2021-11-09T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 255,
+		"fields": {
+			"currency": "PLN",
+			"rate": "4.5956",
+			"date": "2021-11-08T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 256,
+		"fields": {
+			"currency": "RON",
+			"rate": "4.9488",
+			"date": "2021-11-12T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 257,
+		"fields": {
+			"currency": "RON",
+			"rate": "4.9474",
+			"date": "2021-11-11T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 258,
+		"fields": {
+			"currency": "RON",
+			"rate": "4.9496",
+			"date": "2021-11-10T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 259,
+		"fields": {
+			"currency": "RON",
+			"rate": "4.9476",
+			"date": "2021-11-09T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 260,
+		"fields": {
+			"currency": "RON",
+			"rate": "4.9491",
+			"date": "2021-11-08T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 261,
+		"fields": {
+			"currency": "SEK",
+			"rate": "10.0085",
+			"date": "2021-11-12T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 262,
+		"fields": {
+			"currency": "SEK",
+			"rate": "9.9648",
+			"date": "2021-11-11T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 263,
+		"fields": {
+			"currency": "SEK",
+			"rate": "9.9645",
+			"date": "2021-11-10T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 264,
+		"fields": {
+			"currency": "SEK",
+			"rate": "9.8995",
+			"date": "2021-11-09T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 265,
+		"fields": {
+			"currency": "SEK",
+			"rate": "9.9588",
+			"date": "2021-11-08T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 266,
+		"fields": {
+			"currency": "CHF",
+			"rate": "1.0568",
+			"date": "2021-11-12T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 267,
+		"fields": {
+			"currency": "CHF",
+			"rate": "1.0561",
+			"date": "2021-11-11T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 268,
+		"fields": {
+			"currency": "CHF",
+			"rate": "1.0555",
+			"date": "2021-11-10T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 269,
+		"fields": {
+			"currency": "CHF",
+			"rate": "1.0592",
+			"date": "2021-11-09T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 270,
+		"fields": {
+			"currency": "CHF",
+			"rate": "1.0591",
+			"date": "2021-11-08T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 271,
+		"fields": {
+			"currency": "ISK",
+			"rate": "150.4000",
+			"date": "2021-11-12T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 272,
+		"fields": {
+			"currency": "ISK",
+			"rate": "150.4000",
+			"date": "2021-11-11T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 273,
+		"fields": {
+			"currency": "ISK",
+			"rate": "150.4000",
+			"date": "2021-11-10T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 274,
+		"fields": {
+			"currency": "ISK",
+			"rate": "150.4000",
+			"date": "2021-11-09T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 275,
+		"fields": {
+			"currency": "ISK",
+			"rate": "150.4000",
+			"date": "2021-11-08T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 276,
+		"fields": {
+			"currency": "NOK",
+			"rate": "9.9508",
+			"date": "2021-11-12T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 277,
+		"fields": {
+			"currency": "NOK",
+			"rate": "9.9695",
+			"date": "2021-11-11T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 278,
+		"fields": {
+			"currency": "NOK",
+			"rate": "9.8848",
+			"date": "2021-11-10T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 279,
+		"fields": {
+			"currency": "NOK",
+			"rate": "9.8555",
+			"date": "2021-11-09T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 280,
+		"fields": {
+			"currency": "NOK",
+			"rate": "9.8745",
+			"date": "2021-11-08T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 281,
+		"fields": {
+			"currency": "HRK",
+			"rate": "7.5123",
+			"date": "2021-11-12T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 282,
+		"fields": {
+			"currency": "HRK",
+			"rate": "7.5118",
+			"date": "2021-11-11T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 283,
+		"fields": {
+			"currency": "HRK",
+			"rate": "7.5165",
+			"date": "2021-11-10T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 284,
+		"fields": {
+			"currency": "HRK",
+			"rate": "7.5190",
+			"date": "2021-11-09T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 285,
+		"fields": {
+			"currency": "HRK",
+			"rate": "7.5188",
+			"date": "2021-11-08T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 286,
+		"fields": {
+			"currency": "RUB",
+			"rate": "82.6649",
+			"date": "2021-11-12T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 287,
+		"fields": {
+			"currency": "RUB",
+			"rate": "81.5313",
+			"date": "2021-11-11T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 288,
+		"fields": {
+			"currency": "RUB",
+			"rate": "81.8733",
+			"date": "2021-11-10T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 289,
+		"fields": {
+			"currency": "RUB",
+			"rate": "82.1148",
+			"date": "2021-11-09T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 290,
+		"fields": {
+			"currency": "RUB",
+			"rate": "82.6617",
+			"date": "2021-11-08T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 291,
+		"fields": {
+			"currency": "TRY",
+			"rate": "11.3987",
+			"date": "2021-11-12T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 292,
+		"fields": {
+			"currency": "TRY",
+			"rate": "11.3605",
+			"date": "2021-11-11T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 293,
+		"fields": {
+			"currency": "TRY",
+			"rate": "11.3563",
+			"date": "2021-11-10T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 294,
+		"fields": {
+			"currency": "TRY",
+			"rate": "11.2605",
+			"date": "2021-11-09T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 295,
+		"fields": {
+			"currency": "TRY",
+			"rate": "11.2782",
+			"date": "2021-11-08T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 296,
+		"fields": {
+			"currency": "AUD",
+			"rate": "1.5690",
+			"date": "2021-11-12T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 297,
+		"fields": {
+			"currency": "AUD",
+			"rate": "1.5699",
+			"date": "2021-11-11T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 298,
+		"fields": {
+			"currency": "AUD",
+			"rate": "1.5697",
+			"date": "2021-11-10T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 299,
+		"fields": {
+			"currency": "AUD",
+			"rate": "1.5642",
+			"date": "2021-11-09T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 300,
+		"fields": {
+			"currency": "AUD",
+			"rate": "1.5621",
+			"date": "2021-11-08T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 301,
+		"fields": {
+			"currency": "BRL",
+			"rate": "6.1902",
+			"date": "2021-11-12T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 302,
+		"fields": {
+			"currency": "BRL",
+			"rate": "6.2383",
+			"date": "2021-11-11T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 303,
+		"fields": {
+			"currency": "BRL",
+			"rate": "6.2965",
+			"date": "2021-11-10T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 304,
+		"fields": {
+			"currency": "BRL",
+			"rate": "6.3847",
+			"date": "2021-11-09T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 305,
+		"fields": {
+			"currency": "BRL",
+			"rate": "6.4669",
+			"date": "2021-11-08T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 306,
+		"fields": {
+			"currency": "CAD",
+			"rate": "1.4416",
+			"date": "2021-11-12T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 307,
+		"fields": {
+			"currency": "CAD",
+			"rate": "1.4419",
+			"date": "2021-11-11T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 308,
+		"fields": {
+			"currency": "CAD",
+			"rate": "1.4371",
+			"date": "2021-11-10T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 309,
+		"fields": {
+			"currency": "CAD",
+			"rate": "1.4397",
+			"date": "2021-11-09T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 310,
+		"fields": {
+			"currency": "CAD",
+			"rate": "1.4411",
+			"date": "2021-11-08T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 311,
+		"fields": {
+			"currency": "CNY",
+			"rate": "7.3047",
+			"date": "2021-11-12T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 312,
+		"fields": {
+			"currency": "CNY",
+			"rate": "7.3292",
+			"date": "2021-11-11T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 313,
+		"fields": {
+			"currency": "CNY",
+			"rate": "7.3866",
+			"date": "2021-11-10T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 314,
+		"fields": {
+			"currency": "CNY",
+			"rate": "7.3989",
+			"date": "2021-11-09T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 315,
+		"fields": {
+			"currency": "CNY",
+			"rate": "7.4048",
+			"date": "2021-11-08T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 316,
+		"fields": {
+			"currency": "HKD",
+			"rate": "8.9206",
+			"date": "2021-11-12T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 317,
+		"fields": {
+			"currency": "HKD",
+			"rate": "8.9299",
+			"date": "2021-11-11T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 318,
+		"fields": {
+			"currency": "HKD",
+			"rate": "9.0035",
+			"date": "2021-11-10T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 319,
+		"fields": {
+			"currency": "HKD",
+			"rate": "9.0186",
+			"date": "2021-11-09T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 320,
+		"fields": {
+			"currency": "HKD",
+			"rate": "9.0175",
+			"date": "2021-11-08T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 321,
+		"fields": {
+			"currency": "IDR",
+			"rate": "16239.9100",
+			"date": "2021-11-12T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 322,
+		"fields": {
+			"currency": "IDR",
+			"rate": "16342.3200",
+			"date": "2021-11-11T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 323,
+		"fields": {
+			"currency": "IDR",
+			"rate": "16460.5200",
+			"date": "2021-11-10T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 324,
+		"fields": {
+			"currency": "IDR",
+			"rate": "16500.2600",
+			"date": "2021-11-09T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 325,
+		"fields": {
+			"currency": "IDR",
+			"rate": "16507.4000",
+			"date": "2021-11-08T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 326,
+		"fields": {
+			"currency": "INR",
+			"rate": "85.1930",
+			"date": "2021-11-12T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 327,
+		"fields": {
+			"currency": "INR",
+			"rate": "85.3090",
+			"date": "2021-11-11T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 328,
+		"fields": {
+			"currency": "INR",
+			"rate": "85.8824",
+			"date": "2021-11-10T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 329,
+		"fields": {
+			"currency": "INR",
+			"rate": "85.7910",
+			"date": "2021-11-09T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 330,
+		"fields": {
+			"currency": "INR",
+			"rate": "85.8135",
+			"date": "2021-11-08T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 331,
+		"fields": {
+			"currency": "KRW",
+			"rate": "1349.1000",
+			"date": "2021-11-12T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 332,
+		"fields": {
+			"currency": "KRW",
+			"rate": "1353.1300",
+			"date": "2021-11-11T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 333,
+		"fields": {
+			"currency": "KRW",
+			"rate": "1362.5800",
+			"date": "2021-11-10T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 334,
+		"fields": {
+			"currency": "KRW",
+			"rate": "1362.4700",
+			"date": "2021-11-09T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 335,
+		"fields": {
+			"currency": "KRW",
+			"rate": "1368.5200",
+			"date": "2021-11-08T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 336,
+		"fields": {
+			"currency": "MXN",
+			"rate": "23.6472",
+			"date": "2021-11-12T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 337,
+		"fields": {
+			"currency": "MXN",
+			"rate": "23.5367",
+			"date": "2021-11-11T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 338,
+		"fields": {
+			"currency": "MXN",
+			"rate": "23.5282",
+			"date": "2021-11-10T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 339,
+		"fields": {
+			"currency": "MXN",
+			"rate": "23.5335",
+			"date": "2021-11-09T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 340,
+		"fields": {
+			"currency": "MXN",
+			"rate": "23.6244",
+			"date": "2021-11-08T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 341,
+		"fields": {
+			"currency": "MYR",
+			"rate": "4.7692",
+			"date": "2021-11-12T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 342,
+		"fields": {
+			"currency": "MYR",
+			"rate": "4.7765",
+			"date": "2021-11-11T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 343,
+		"fields": {
+			"currency": "MYR",
+			"rate": "4.8006",
+			"date": "2021-11-10T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 344,
+		"fields": {
+			"currency": "MYR",
+			"rate": "4.8039",
+			"date": "2021-11-09T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 345,
+		"fields": {
+			"currency": "MYR",
+			"rate": "4.8111",
+			"date": "2021-11-08T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 346,
+		"fields": {
+			"currency": "NZD",
+			"rate": "1.6293",
+			"date": "2021-11-12T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 347,
+		"fields": {
+			"currency": "NZD",
+			"rate": "1.6318",
+			"date": "2021-11-11T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 348,
+		"fields": {
+			"currency": "NZD",
+			"rate": "1.6285",
+			"date": "2021-11-10T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 349,
+		"fields": {
+			"currency": "NZD",
+			"rate": "1.6192",
+			"date": "2021-11-09T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 350,
+		"fields": {
+			"currency": "NZD",
+			"rate": "1.6151",
+			"date": "2021-11-08T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 351,
+		"fields": {
+			"currency": "PHP",
+			"rate": "56.9950",
+			"date": "2021-11-12T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 352,
+		"fields": {
+			"currency": "PHP",
+			"rate": "57.3720",
+			"date": "2021-11-11T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 353,
+		"fields": {
+			"currency": "PHP",
+			"rate": "57.8590",
+			"date": "2021-11-10T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 354,
+		"fields": {
+			"currency": "PHP",
+			"rate": "57.9800",
+			"date": "2021-11-09T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 355,
+		"fields": {
+			"currency": "PHP",
+			"rate": "58.0190",
+			"date": "2021-11-08T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 356,
+		"fields": {
+			"currency": "SGD",
+			"rate": "1.5494",
+			"date": "2021-11-12T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 357,
+		"fields": {
+			"currency": "SGD",
+			"rate": "1.5516",
+			"date": "2021-11-11T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 358,
+		"fields": {
+			"currency": "SGD",
+			"rate": "1.5585",
+			"date": "2021-11-10T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 359,
+		"fields": {
+			"currency": "SGD",
+			"rate": "1.5601",
+			"date": "2021-11-09T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 360,
+		"fields": {
+			"currency": "SGD",
+			"rate": "1.5611",
+			"date": "2021-11-08T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 361,
+		"fields": {
+			"currency": "THB",
+			"rate": "37.5270",
+			"date": "2021-11-12T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 362,
+		"fields": {
+			"currency": "THB",
+			"rate": "37.6520",
+			"date": "2021-11-11T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 363,
+		"fields": {
+			"currency": "THB",
+			"rate": "37.8990",
+			"date": "2021-11-10T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 364,
+		"fields": {
+			"currency": "THB",
+			"rate": "37.9320",
+			"date": "2021-11-09T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 365,
+		"fields": {
+			"currency": "THB",
+			"rate": "38.2110",
+			"date": "2021-11-08T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 366,
+		"fields": {
+			"currency": "ZAR",
+			"rate": "17.4919",
+			"date": "2021-11-12T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 367,
+		"fields": {
+			"currency": "ZAR",
+			"rate": "17.4775",
+			"date": "2021-11-11T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 368,
+		"fields": {
+			"currency": "ZAR",
+			"rate": "17.5294",
+			"date": "2021-11-10T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 369,
+		"fields": {
+			"currency": "ZAR",
+			"rate": "17.3964",
+			"date": "2021-11-09T13:15:00Z"
+		}
+	},
+	{
+		"model": "rates.rate",
+		"pk": 370,
+		"fields": {
+			"currency": "ZAR",
+			"rate": "17.3716",
+			"date": "2021-11-08T13:15:00Z"
+		}
+	}
+]

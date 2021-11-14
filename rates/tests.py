@@ -1,11 +1,15 @@
-from django.test import TestCase
-from rest_framework.test import APIRequestFactory
+from django.test import TestCase, RequestFactory
+from rates.views import RateViewSet
 
 
 class FetchingRatesTest(TestCase):
-    def setUp(self):
-        self.factory = APIRequestFactory()
+    fixtures = ['rates.json']
 
-    def test_fetching_rates(self):
+    def setUp(self):
+        self.factory = RequestFactory()
+
+    def test_rates_viewset(self):
         request = self.factory.get('/rates/')
-        print(request)
+        response = RateViewSet.as_view({'get': 'list'})(request)
+        self.assertEqual(response.data['results'][0]['currency'], 'USD')
+        self.assertEqual(response.data['results'][0]['rate'], 1.1448)
