@@ -23,6 +23,8 @@ services:
     command: bash -c "celery -A exchange_rates worker --loglevel=info"
     volumes:
       - .:/currency_exchange_rates_api
+    env_file:
+      - .env
     depends_on:
       - redis
       - web
