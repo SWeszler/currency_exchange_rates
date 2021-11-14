@@ -1,0 +1,6 @@
+# gitignore for django project
+__pycache__
+.env
+db.sqlite3
+test.xml
+.pytest_cache

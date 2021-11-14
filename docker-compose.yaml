@@ -1,0 +1,29 @@
+version: "3.9"
+services:
+  web:
+    image: exchangerates
+    command: bash -c "python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
+    ports:
+      - "8000:8000"
+    expose:
+      - "8000"
+    volumes:
+      - .:/currency_exchange_rates_api
+    env_file:
+      - .env
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+  redis:
+    image: redis:latest
+
+  celery:
+    image: exchangerates
+    command: bash -c "celery -A exchange_rates worker --loglevel=info"
+    volumes:
+      - .:/currency_exchange_rates_api
+    depends_on:
+      - redis
+      - web
+  
