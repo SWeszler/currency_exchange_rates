@@ -5,7 +5,7 @@ This application consists of an RSS scraper and REST API.
 1. RSS scraper reads the exchange rates from the European Central Bank and writes them to the database. 
 RSS link: https://www.ecb.europa.eu/home/html/rss.en.html  
 Fetching the RSS feed is done by the scheduled task. It is scheduled to run every day at midnight.  
-For scheduling tasks we can use Cron job or Google Cloud Scheduler. Once the webhook is triggered the asynchronous task is being added to the queue built with Celery and Redis.  
+For scheduling tasks we can use Cron job or Google Cloud Scheduler. Once the webhook is triggered the asynchronous task is being added to the queue that has been built with Celery and Redis.  
 
 	Webhook (Needs Basic Authentication):  
 	curl -u user:password -X GET http://localhost:8000/scraper/run/ 
