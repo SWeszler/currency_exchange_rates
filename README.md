@@ -32,7 +32,6 @@ It provides the following endpoints:
 	    "previous": null,  
 	    "results": [  
 		{  
-		    "id": 1,  
 		    "currency": "EUR",  
 		    "rate": 1.0,  
 		    "date": "2020-01-01",  
@@ -45,14 +44,18 @@ It provides the following endpoints:
 	Response  
 	```
 	{  
-	    "id": 1,  
 	    "currency": "EUR",  
 	    "rate": 1.0,  
 	    "date": "2020-01-01",  
 	    "base_currency": "EUR"
 	}
 	```
+	
 	GET /api/v1/rates/{currency}/{date} - returns the exchange rate for the given currency and date.  
+
+	GET /api/v1/currencies/ - returns all currencies.
+
+	GET /api/v1/currencies/{currency}/ - returns the historical exchange rates for the given currency.
 
 
 ## Installation

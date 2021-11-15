@@ -1,12 +1,13 @@
 from django.contrib import admin
 from django.urls import path, re_path, include
 from rest_framework.routers import SimpleRouter
-from rates.views import RateViewSet
+from rates.views import RateViewSet, CurrencyViewSet
 from scraper.views import ScraperView
 
 
 router = SimpleRouter()
 router.register(r'rates', RateViewSet)
+router.register(r'currencies', CurrencyViewSet)
 
 explicit_api_urlpatterns = [
     re_path(

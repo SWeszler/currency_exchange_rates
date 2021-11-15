@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 from exchange_rates.celery import app
-from rates.models import Rate
+from rates.models import Currency, Rate
 import re
 import requests
 from time import sleep
@@ -34,18 +34,21 @@ def get_exchange_rates_from_xml(url):
     soup = BeautifulSoup(response.content, 'xml')
     items = soup.find_all('item')
     for item in items:
+        target_currency = item.find('cb:targetCurrency').text
         rate = {
             'date': item.find('dc:date').text,
-            'rate': item.find('cb:value').text,
-            'currency': item.find('cb:targetCurrency').text 
+            'rate': item.find('cb:value').text
         }
-        msg = f"Adding new exchange rate for {rate['currency']}. "
+        msg = f"Adding new exchange rate for {target_currency}. "
+        
+        currency, _ = Currency.objects.get_or_create(symbol=target_currency)
         try:
             rate, crated = Rate.objects.get_or_create(**rate)
             if crated:
                 msg += "Success!"
             else:
                 msg += "Already exists."
+            currency.rates.add(rate)
         except Exception as e:
             msg = f'ERROR: Cannot save the rate in the database. Message: {e}'
             
