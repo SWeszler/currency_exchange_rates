@@ -12,11 +12,10 @@ class FetchingRatesTest(TestCase):
         request = self.factory.get('/rates/')
         response = RateViewSet.as_view({'get': 'list'})(request)
         self.assertEqual(response.data['results'][0]['currency'], 'USD')
-        self.assertEqual(response.data['results'][0]['rate'], 1.1444)
+        self.assertEqual(response.data['results'][0]['rate'], '1.1444')
 
     def test_usd_latest_rate(self):
         request = self.factory.get('/rates/USD/')
         response = RateViewSet.as_view({'get': 'retrieve'})(request, currency='USD')
-        print(response.data)
         self.assertEqual(response.data['currency'], 'USD')
-        self.assertEqual(response.data['rate'], 1.1444)
+        self.assertEqual(response.data['rate'], '1.1444')

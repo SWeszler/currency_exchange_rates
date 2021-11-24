@@ -8,7 +8,7 @@ class RateSerializer(serializers.ModelSerializer):
     """
     currency = serializers.StringRelatedField()
     base_currency = serializers.CharField()
-    rate = serializers.FloatField()
+    rate = serializers.DecimalField(max_digits=10, decimal_places=4)
 
     class Meta:
         model = Rate

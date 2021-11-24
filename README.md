@@ -100,5 +100,11 @@ This method will require you to install Python and Redis on your machine.
 ## Testing
 
 ```
+pytest
+```
+
+or
+
+```
 python manage.py test
 ```
